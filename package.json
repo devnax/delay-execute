@@ -1,0 +1,30 @@
+{
+   "name": "delay-execute",
+   "version": "1.0.1",
+   "description": "A utility to delay the execution of a function to avoid rapid consecutive calls, useful in React and other JavaScript environments.",
+   "main": "./index.js",
+   "scripts": {
+      "start": "makepack serve",
+      "pack": "makepack pack",
+      "publish:pack": "makepack pack -p"
+   },
+   "dependencies": {},
+   "devDependencies": {
+      "makepack": "latest",
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0",
+      "typescript": "^4.4.2",
+      "@types/react": "^19.0.2",
+      "@types/react-dom": "^19.0.2"
+   },
+   "keywords": [
+      "delay",
+      "debounce",
+      "callback",
+      "react",
+      "javascript",
+      "utility"
+   ],
+   "author": "Naxrul Ahmed",
+   "license": "MIT"
+}
