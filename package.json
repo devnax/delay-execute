@@ -1,6 +1,6 @@
 {
    "name": "delay-execute",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "description": "A utility to delay the execution of a function to avoid rapid consecutive calls, useful in React and other JavaScript environments.",
    "main": "./index.js",
    "scripts": {
@@ -16,6 +16,13 @@
       "typescript": "^4.4.2",
       "@types/react": "^19.0.2",
       "@types/react-dom": "^19.0.2"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/username/delay-execute.git"
+   },
+   "bugs": {
+      "url": "https://github.com/username/delay-execute/issues"
    },
    "keywords": [
       "delay",
